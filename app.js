@@ -8,13 +8,14 @@ $(document).ready(function() {
 
 	});
 
-	$(".change").click(function(){
-		$(this).css("background-color", "green");
+	$("div").on("click", ".change", function(){
+		console.log($(this).parent());
+		$(this).parent().css("background-color", "#FF3399");
 		console.log("hi!");
 	});
 
-	$(".remove").click(function(){
-		$(this).parent().parent().remove();
+	$("div").on("click", ".remove", function(){
+		$(this).parent().remove();
 	});
 
 });
