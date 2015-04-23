@@ -1,4 +1,5 @@
 var i = 0;
+var flipFlop;
 
 $(document).ready(function() {
 
@@ -9,9 +10,8 @@ $(document).ready(function() {
 	});
 
 	$("div").on("click", ".change", function(){
-		console.log($(this).parent());
 		$(this).parent().css("background-color", "#FF3399");
-		console.log("hi!");
+
 	});
 
 	$("div").on("click", ".remove", function(){
