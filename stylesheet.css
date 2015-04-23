@@ -1,13 +1,17 @@
 .change {
-
+ 	background-color: white;
 }
 
 
 .change2 {
-
+	background-color: green;
 }
 
 
 .remove {
 
+}
+
+p {
+	color:green;
 }
